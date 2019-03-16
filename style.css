@@ -1,0 +1,98 @@
+.header {
+    background-color: #660000;
+}
+
+.header-layout {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 2.86rem;
+}
+
+.horizontal-line{
+    border-bottom: 5px solid #76c38f;
+}
+
+.center-header{
+    padding: 4rem 0;
+
+}
+
+.center-img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 25px solid #6b6b6b;
+    background: url("images/img-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services{
+    background-color: #660000;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.thumbnail:hover{
+    background-color: #76c38f;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+.latest-works{
+    background-color: #660000;
+    /*margin-bottom: 3rem;*/
+    padding-bottom: 4.5rem;
+}
+.latest-works-zag{
+    color: white;
+    background-color: #303030;
+    border-radius: 5px;
+}
+
+.latest-works-img1{
+    border: 5px solid white;
+    border-radius: 2px;
+    margin-top: 3rem;
+}
+
+.latest-works-img{
+    position: relative;
+}
+
+.img-layout{
+    position: absolute;
+    top:85%;
+    left: 10%;
+    right: 10%;
+    bottom: 1%;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-works-img:hover .img-layout{
+    display: none;
+}
+.latest-works-img:hover .latest-works-img1{
+    border: 5px solid #76c38f;
+    border-radius: 2px;
+}
+
+.footer{
+    padding-top: 3rem;
+    background-color: #303030;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:active{
+    background-color: #76c38f;
+}

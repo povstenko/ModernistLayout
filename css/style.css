@@ -1,5 +1,5 @@
 .header {
-    background-color: #660000;
+    background-color: #CCCCCC;
 }
 
 .header-layout {
@@ -8,7 +8,7 @@
 }
 
 .horizontal-line{
-    border-bottom: 5px solid #76c38f;
+    border-bottom: 5px solid #76C38F;
 }
 
 .center-header{
@@ -18,21 +18,19 @@
 .center-img{
     width: 380px;
     height: 380px;
-    border-radius: 50%;
-    border: 25px solid #6b6b6b;
-    background: url("../images/img-header.jpg");
+    background: url("../images/slide.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .services{
-    background-color: #660000;
+    background-color: #CCCCCC;
     padding-top: 4.5rem;
     padding-bottom: 3rem;
 }
 
 .thumbnail:hover{
-    background-color: #76c38f;
+    background-color: #76C38F;
 }
 
 .header-text{
@@ -43,7 +41,7 @@
     height: 380px;
 }
 .latest-works{
-    background-color: #660000;
+    background-color: #CCCCCC;
     padding-bottom: 4.5rem;
 }
 .latest-works-zag{
@@ -78,7 +76,7 @@
     display: none;
 }
 .latest-works-img:hover .latest-works-img1{
-    border: 5px solid #76c38f;
+    border: 5px solid #76C38F;
     border-radius: 2px;
 }
 
@@ -92,5 +90,5 @@ ul{
 }
 
 li:active{
-    background-color: #76c38f;
+    background-color: #76C38F;
 }
